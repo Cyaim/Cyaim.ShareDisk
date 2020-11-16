@@ -1,0 +1,42 @@
+[
+    {
+      "key": "0",
+      "type": "folder",
+      "title": "src",
+      "children": [
+        {
+          "key": "1",
+          "type": "folder",
+          "title": "Components",
+          "children": [
+            { "key": "16", "type": "folder", "title": "New Folder", "children":[] },
+            { "key": "2", "type": "file", "title": "Modal.js" },
+            { "key": "3", "type": "file", "title": "Modal.css" }
+          ]
+        },
+        {
+          "key": "9",
+          "type": "folder",
+          "title": "assets",
+          "children": [
+            { "key": "10", "type": "file", "title": "icon" },
+            { "key": "11", "type": "file", "title": "icon2" }
+          ]
+        },
+        { "key": "4", "type": "file", "title": "index.js" },
+        { "key": "5", "type": "file", "title": "index.html" }
+      ]
+    },
+    { "key":"12", 
+      "type":"folder", 
+      "title": "New folder", 
+      "children":[
+      { "key": "15", "type": "folder", "title": "New folder", "children":[] },
+      { "key": "13", "type": "file", "title": "New txt.txt" },
+      { "key": "14", "type": "file", "title": "New music.mp3" }
+      ] 
+    },
+    { "key": "6", "type": "file", "title": "package.json" },
+    { "key": "7", "type": "file", "title": "test.txt" },
+    { "key": "8", "type": "file", "title": "很长很长的视频123456.mp4" }
+  ]

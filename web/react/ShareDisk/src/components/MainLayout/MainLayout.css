@@ -1,0 +1,54 @@
+.menu.ant-menu-horizontal {
+    border-bottom: 0px;
+}
+
+.mainMenu.ant-menu.ant-menu-dark, .mainMenu.ant-menu.ant-menu-dark .ant-menu-sub {
+    color: unset;
+    line-height: 80px;
+    font-size: 13pt;
+    background: transparent;
+}
+
+.ant-menu.ant-menu-dark .mainMenuItem.ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .mainMenuItem.ant-menu-item-selected {
+    background-color: unset;
+    color: #1890ff;
+}
+
+.mainLayout {
+    background-color: transparent;
+    height: 100vh;
+    font-family: "微软雅黑";
+}
+
+.mainMenu {
+    float: right;
+    background-color: transparent;
+}
+
+.mainMenuItem {
+    width: 150px;
+    text-align: center;
+}
+
+.mainHeader {
+    background-color: rgba(0,0,0,0.3);
+    padding: 0;
+}
+
+.mainFooter {
+    background-color: transparent;
+    padding: 0;
+    color: #E0E0E0;
+    font-size: 90%;
+    text-align: center;
+}
+
+.loginCard {
+    float: right;
+    position: relative;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    min-height: 330px;
+}

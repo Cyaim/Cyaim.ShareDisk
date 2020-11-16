@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Explore Mist - A NetDisk Production</title>
+</head>
+<body>
+<header class="g-h s-wrap">
+	<h1 class="m-title">
+		<a class="u-tlink s-thidden s-spritem" href="">微云网盘</a>
+	</h1>
+	<div class="g-hdefu clearfix">
+		<div class="m-upload">
+			<span class="u-sbtn s-spritem"></span>
+		</div>
+		<div class="m-search">
+			<span class="u-seico s-spritem"></span>
+			<input class="u-seinp" type="" name="" placeholder="输入文件名">
+			<span class="u-seclose s-spritem"></span>
+		</div>
+		<div class="m-actcol">
+			<div class="u-view clearfix">
+				<span class="u-viewlist f-active">
+					<i class="s-spritem"></i>
+				</span>
+				<span class="u-viewthum">
+					<i class="s-spritem"></i>
+				</span>
+			</div>
+			<div class="u-sort  clearfix">
+				<span class="u-sorttime  f-active">
+					<i class="s-spritem"></i>
+				</span>
+				<span class="u-sortalph">
+					<i class="s-spritem"></i>
+				</span>
+			</div>
+		</div>
+		<div class="m-add">
+			<div class="u-abtn">
+				<span class="u-abtnico s-spritem"></span>
+				<span class="u-abtntex">添加</span>
+			</div>
+			<div class="u-layer">
+				<ul class="u-upload clearfix">
+					<li class="u-udfile">
+						<i class="s-spritem2"></i>
+						<p>上传文件</p>
+					</li>
+					<li class="u-udfolder">
+						<i class="s-spritem2"></i>
+						<p>上传文件夹</p>
+					</li>
+					<li class="u-uddown">
+						<i class="s-spritem2"></i>
+						<p>离线下载</p>
+					</li>
+					<li class="u-udnewfo">
+						<i class="s-spritem2"></i>
+						<p>创建文件夹</p>
+					</li>
+					<li class="u-udnote">
+						<i class="s-spritem2"></i>
+						<p>添加笔记</p>
+					</li>
+				</ul>
+				<i class="u-arrow"></i>
+				<i class="u-arrow u-arrowmodify"></i>
+			</div>
+		</div>
+	</div>
+	<div class="g-hmod">
+		<div class="m-select">
+			<span>取消选择</span>
+		</div>
+		<div class="m-selnum">
+			<span>选择了0项</span>
+		</div>
+		<ul class="m-filefn clearfix">
+			<li class="u-download"><i class="s-spritem"></i><span>下载</span></li>
+			<li class="u-share"><i class="s-spritem"></i><span>分享</span></li>
+			<li class="u-move"><i class="s-spritem"></i><span>移动到</span></li>
+			<li class="u-rename"><i class="s-spritem"></i><span>重命名</span></li>
+			<li class="u-delete"><i class="s-spritem"></i><span>删除</span></li>
+		</ul>
+		<ul class="m-filefn clearfix" style="display: none">
+			<li class="u-restore"><i class="s-spritem"></i><span>还原</span></li>
+			<li class="u-deletePrem"><i class="s-spritem"></i><span>永久删除</span></li>
+		</ul>
+	</div>
+</header>
+<section class="g-s s-wrap">
+	<aside class="g-side">
+		<div class="m-avator">
+			<div class="u-armask s-spritem"></div>
+			<a class="u-arpic" href="javascript:;">
+				<img src="images/avatar.gif">
+			</a>
+		</div>
+		<nav class="m-snavwrap">
+			<div class="m-viprom">
+				<a  class="u-vipbtn" href="javascript:;">欢迎来访</a>
+			</div>
+			<div class="m-snavblock">
+				<ul class="m-snavlist">
+					<li class="u-srecent">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>最近</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="m-snavblock">
+				<h3>文件</h3>
+				<ul class="m-snavlist">
+					<li class="u-sall">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>全部</span>
+						</a>
+					</li>
+					<li class="u-sdocument">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>文档</span>
+						</a>
+					</li>
+					<li class="u-spicture">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>图片</span>
+						</a>
+					</li>
+					<li class="u-svideo">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>视频</span>
+						</a>
+					</li>
+					<li class="u-snote">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>笔记</span>
+						</a>
+					</li>
+					<li class="u-smusic">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>音乐</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="m-snavblock">
+				<h3>照片</h3>
+				<ul class="m-snavlist">
+					<li class="u-ptime">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>时间</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="m-snavblock">
+				<h3>我的</h3>
+				<ul class="m-snavlist">
+					<li class="u-mcut">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>剪贴板</span>
+						</a>
+					</li>
+					<li class="u-mshare">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>分享链接</span>
+						</a>
+					</li>
+					<li class="u-mgarbage">
+						<a href="javascript:;">
+							<i class="s-spritem"></i>
+							<span>回收站</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</aside>
+	<article class="g-main">
+		<div class="m-mainbar clearfix">
+			<div class="u-checkbox">
+				<i class="s-spritem"></i>
+			</div>
+			<ul class="u-navbar clearfix">
+				<!-- <li class="s-enclick">
+					<a href="javascript:;">微云</a>
+				</li>
+				<li class="s-enclick">
+					<i class="s-spritem"></i>
+					<a href="javascript:;">文件夹一</a>
+				</li>
+				<li class="s-unclick">
+					<i class="s-spritem"></i>
+					<a href="javascript:;">文件夹二</a>
+				</li> -->
+			</ul>
+		</div>
+
+		<div class="m-mcontent">
+			<!-- 缩略图样式 -->
+			<!-- <div class="m-mfolders clearfix">
+			
+				<div class="u-mfolder f-active">
+					<div class="u-wrap">
+						<i class="s-spritem"></i>
+						<span>我是文件夹夹夹夹夹</span>
+					</div>
+					<i class="u-checkbox s-spritem"></i>
+				</div>
+			
+				<div class="u-mfolder">
+					<div class="u-wrap">
+						<i class="s-spritem"></i>
+						<span>1231111111111111111111111111111</span>
+					</div>
+					<i class="u-checkbox s-spritem"></i>
+				</div>
+				
+			</div>
+			<div class="m-mfiles clearfix">
+			
+				<div class="u-mfile">
+					<div class="u-wrap">
+						<i class="s-spritem s-text"></i>
+					</div>
+					<p class="u-tit">
+						<i class="s-spritem s-text"></i>
+						<span>我是文件夹夹夹夹夹夹夹</span>
+					</p>
+					<i class="u-checkbox s-spritem"></i>
+				</div>
+			
+				<div class="u-mfile f-active">
+					<div class="u-wrap">
+						<i class="s-spritem s-music"></i>
+						
+					</div>
+					<p class="u-tit">
+						<i class="s-spritem s-music"></i>
+						<span>1231111111111111111111111111111</span>
+					</p>
+					<i class="u-checkbox s-spritem"></i>
+				</div>
+			
+			</div> -->
+			<!-- 列表样式 -->
+			<!-- <ul class="m-listcont">
+				<li class="u-list">
+			
+					<div class="u-wrap">
+						<i class="u-checkbox s-spritem"></i>
+						<i class="u-icon s-spritem s-folder"></i>
+						<span>我是文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹</span>
+					</div>
+					<div class="u-wrap2">
+						<span class="u-modbtn">
+							<a href="javascript:;" class="s-spritem s-share"></a>
+							<a href="javascript:;" class="s-spritem s-download"></a>
+							<a href="javascript:;" class="s-spritem s-move"></a>
+							<a href="javascript:;" class="s-spritem s-delete"></a>
+							<a href="javascript:;" class="s-spritem s-rename"></a>
+							<a href="javascript:;" class="s-spritem s-qrcode"></a>
+						</span>
+						<span class="u-size">7.6M</span>
+						<span class="u-time">2017-02-22 22:13</span>
+					</div>
+				</li>
+				<li class="u-list f-active">
+					<div class="u-wrap">
+						<i class="u-checkbox s-spritem"></i>
+						<i class="u-icon s-spritem s-folder"></i>
+						<span>我是文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹文件夹夹夹夹夹</span>
+					</div>
+					<div class="u-wrap2">
+						<span class="u-modbtn">
+							<a href="javascript:;" class="s-spritem s-undo"></a>
+							<a href="javascript:;" class="s-spritem s-delpre"></a>
+						</span>
+						<span class="u-size">7.6M</span>
+						<span class="u-time">2017-02-22 22:13</span>
+					</div>
+				</li>
+			</ul> -->
+
+			<!-- 文件菜单 -->
+			<!-- <div class="m-mmenu">
+				<ul>
+					<li>下载</li>
+					<li>删除</li>
+					<li>移动到</li>
+					<li>重命名</li>
+					<li>分享</li>
+				</ul>
+			</div> -->
+		</div>
+	</article>
+</section>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

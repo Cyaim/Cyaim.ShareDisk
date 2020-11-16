@@ -1,0 +1,160 @@
+.dashSider {
+    min-width: 240px !important;
+    background-color: #F4F4F4;
+}
+
+.dashHr {
+    margin: 10px 20px 10px 20px;
+    height: 1px;
+    border: none;
+    background-color: #cccccc80;
+}
+
+.dashMenu {
+    background-color: transparent;
+}
+
+#sub\$Menu {
+    background-color: transparent !important;
+}
+
+.dashSearch {
+    margin: 0px 20px 0px 20px;
+    min-width: 30vw;
+    max-width: 40vw;
+    top: -4px;
+    height: 40px;
+}
+
+.dashItem {
+    vertical-align: middle;
+}
+
+.dashIcon {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 17pt !important;
+    vertical-align: middle;
+}
+
+.dashSpan {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dashHeader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 240px;
+    z-index: 1;
+    background: #FFFFFF;
+    min-width: 700px;
+}
+
+.dashLayout {
+    min-height: 100vh;
+    font-family: "微软雅黑";
+}
+
+.dashContent {
+    padding: 0 40px 0 40px;
+    margin-top: 64px;
+    background: #FFFFFF;
+}
+
+.dashBread {
+    margin: 16px 10px;
+}
+
+.dashButton {
+    width: 100px;
+}
+
+.dropItem {
+    padding: 10px 10px 10px 10px;
+    font-family: "微软雅黑";
+}
+
+.dropLabel {
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 0;
+    color: #9B9B9B;
+    font-size: 90%;
+    font-family: "微软雅黑";
+}
+
+.dropCard {
+    min-height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.dropCardStorage {
+    min-height: 80px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+.dropCardName {
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.dropCardUser {
+    padding-bottom: 10px;
+}
+
+.dropCardList {
+    text-align: left;
+}
+
+.dropUsersCard {
+    border: unset;
+}
+
+.dropUsersCard:hover {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dropUsersCard .ant-card-body .ant-list-item-meta .ant-list-item-meta-avatar{
+    margin: 8px 16px 8px 8px;
+}
+
+.dropBtnLogout {
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    margin: 15px;
+}
+
+.siderTree {
+    background: transparent;
+    margin: 10px;
+    overflow: auto;
+}
+
+.siderTree.ant-tree.ant-tree-directory .ant-tree-treenode:hover::before {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.siderTree.ant-tree.ant-tree-directory .ant-tree-treenode .ant-tree-node-content-wrapper.ant-tree-node-content-wrapper-normal .ant-tree-iconEle.ant-tree-icon__customize {
+    padding-top: 3px;
+}
+
+.siderLink {
+    color: unset;
+}
+
+.siderLink:hover {
+    color: unset;
+}

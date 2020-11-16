@@ -1,0 +1,37 @@
+.login-form {
+  padding: 20px 20px 10px 20px;
+  user-select: none;
+  text-align: center;
+}
+
+.login-form-forgot {
+  float: right;
+}
+
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+.login-title {
+  font-size: 15pt;
+}
+
+.item {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.remember {
+  float: left;
+  height: 5px;
+}
+
+.agree {
+  float: left;
+  text-align: left;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,48 @@
+@import '~antd/dist/antd.css';
+
+.diskCard {
+    width: 110px;
+    min-height: 110px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.diskCard:hover {
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.diskCheck {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    margin: 5px;
+    z-index: 100;
+    display: none;
+}
+
+.diskItem:hover .diskCheck {
+    display: block;
+}
+
+.diskItem {
+    text-align: center;
+}
+
+.diskText {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 20px;
+    word-wrap: break-word;
+    max-height: 40px;
+    color: #000000;
+}
+
+.diskText:hover {
+    text-decoration: underline;
+}
